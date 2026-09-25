@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vandox | Personal Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ================= ANIMATED BACKGROUND ================= -->
+
+    <div id="background-animation"></div>
+
+    <div id="mouse-glow"></div>
+
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                VANDOX<span>.</span>
+            </a>
+
+            <nav>
+
+                <a href="#home"
+                   data-en="Home"
+                   data-ar="الرئيسية">
+                    Home
+                </a>
+
+                <a href="#about"
+                   data-en="About"
+                   data-ar="عني">
+                    About
+                </a>
+
+                <a href="#skills"
+                   data-en="Skills"
+                   data-ar="مهاراتي">
+                    Skills
+                </a>
+
+                <a href="#projects"
+                   data-en="Projects"
+                   data-ar="مشاريعي">
+                    Projects
+                </a>
+
+                <a href="#favorites"
+                   data-en="Favorites"
+                   data-ar="المفضلة">
+                    Favorites
+                </a>
+
+                <a href="#contact"
+                   data-en="Contact"
+                   data-ar="تواصل معي">
+                    Contact
+                </a>
+
+            </nav>
+
+            <button id="languageBtn" class="language-btn">
+                AR
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-glow"></div>
+
+        <div class="hero-content">
+
+            <p
+                class="hero-label"
+                data-en="WELCOME TO MY WEBSITE"
+                data-ar="مرحبا بك في موقعي">
+                WELCOME TO MY WEBSITE
+            </p>
+
+            <h1>
+
+                <span
+                    data-en="Hi, I'm "
+                    data-ar="انا ">
+                    Hi, I'm
+                </span>
+
+                <span>Vandox</span>
+
+            </h1>
+
+            <p
+                class="hero-description"
+                data-en="I'm a technology enthusiast, content creator and aspiring game developer. I build things, experiment with ideas and learn something new every day."
+                data-ar="انا مهتم بالتكنولوجيا وصناعة المحتوى وتطوير الالعاب. اصنع المشاريع واجرب الافكار واتعلم شيئا جديدا كل يوم.">
+                I'm a technology enthusiast, content creator and aspiring game developer.
+                I build things, experiment with ideas and learn something new every day.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#projects"
+                    class="btn primary"
+                    data-en="View My Projects"
+                    data-ar="شاهد مشاريعي">
+                    View My Projects
+                </a>
+
+                <a
+                    href="#about"
+                    class="btn secondary"
+                    data-en="About Me"
+                    data-ar="عني">
+                    About Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section">
+
+        <div class="section-title">
+
+            <p
+                data-en="01 / ABOUT"
+                data-ar="01 / عني">
+                01 / ABOUT
+            </p>
+
+            <h2
+                data-en="Who am I?"
+                data-ar="من انا؟">
+                Who am I?
+            </h2>
+
+        </div>
+
+
+        <div class="about-container">
+
+            <div class="about-image">
+
+                <img
+                    src="./assets/profile.png.jpe"
+                    alt="Vandox">
+
+            </div>
+
+
+            <div class="about-content">
+
+                <h3
+                    data-en="I'm Vandox."
+                    data-ar="انا Vandox.">
+                    I'm Vandox.
+                </h3>
+
+                <p
+                    data-en="I enjoy technology, artificial intelligence, game development, websites and discovering interesting tools."
+                    data-ar="احب التكنولوجيا والذكاء الاصطناعي وتطوير الالعاب والمواقع واكتشاف الادوات الممتعة.">
+                    I enjoy technology, artificial intelligence, game development,
+                    websites and discovering interesting tools.
+                </p>
+
+                <p
+                    data-en="I like turning ideas into real projects instead of just talking about them. This website is a place where I collect the things I build and the things I enjoy."
+                    data-ar="احب تحويل الافكار الى مشاريع حقيقية بدلا من مجرد الحديث عنها. هذا الموقع هو المكان الذي اجمع فيه مشاريعي والاشياء التي احبها.">
+                    I like turning ideas into real projects instead of just talking about them.
+                    This website is a place where I collect the things I build and the things I enjoy.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section">
+
+        <div class="section-title">
+
+            <p
+                data-en="02 / SKILLS"
+                data-ar="02 / مهاراتي">
+                02 / SKILLS
+            </p>
+
+            <h2
+                data-en="What I do"
+                data-ar="ماذا افعل؟">
+                What I do
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+
+                <span>01</span>
+
+                <h3
+                    data-en="Technology"
+                    data-ar="التكنولوجيا">
+                    Technology
+                </h3>
+
+                <p
+                    data-en="PCs, Windows, software, websites and useful tools."
+                    data-ar="الحواسيب وويندوز والبرامج والمواقع والادوات المفيدة.">
+                    PCs, Windows, software, websites and useful tools.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <span>02</span>
+
+                <h3
+                    data-en="AI"
+                    data-ar="الذكاء الاصطناعي">
+                    AI
+                </h3>
+
+                <p
+                    data-en="Exploring AI tools and using them to create interesting projects."
+                    data-ar="استكشاف ادوات الذكاء الاصطناعي واستخدامها لصنع مشاريع ممتعة.">
+                    Exploring AI tools and using them to create interesting projects.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <span>03</span>
+
+                <h3
+                    data-en="Game Development"
+                    data-ar="تطوير الالعاب">
+                    Game Development
+                </h3>
+
+                <p
+                    data-en="Learning Unity and building my own game ideas."
+                    data-ar="تعلم Unity وبناء افكاري الخاصة للالعاب.">
+                    Learning Unity and building my own game ideas.
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <span>04</span>
+
+                <h3
+                    data-en="Content Creation"
+                    data-ar="صناعة المحتوى">
+                    Content Creation
+                </h3>
+
+                <p
+                    data-en="Creating useful and entertaining technology content."
+                    data-ar="صناعة محتوى تقني مفيد وممتع.">
+                    Creating useful and entertaining technology content.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
+        <div class="section-title">
+
+            <p
+                data-en="03 / PROJECTS"
+                data-ar="03 / مشاريعي">
+                03 / PROJECTS
+            </p>
+
+            <h2
+                data-en="Things I've built"
+                data-ar="اشياء صنعتها">
+                Things I've built
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="./assets/youtube-pc.png"
+                        alt="Vandox Tech">
+
+                </div>
+
+                <div class="project-info">
+
+                    <span>PROJECT 01</span>
+
+                    <h3>Vandox Tech</h3>
+
+                    <p
+                        data-en="My technology channel where I share useful tech, AI, software and creative projects."
+                        data-ar="قناتي التقنية حيث اشارك محتوى عن التكنولوجيا والذكاء الاصطناعي والبرامج والمشاريع.">
+                        My technology channel where I share useful tech,
+                        AI, software and creative projects.
+                    </p>
+
+                    <a
+                        href="https://youtube.com/@3z2m"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-en="Visit Channel →"
+                        data-ar="زيارة القناة ←">
+                        Visit Channel →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="./assets/blockzone.png.jpe"
+                        alt="Block Zone">
+
+                </div>
+
+                <div class="project-info">
+
+                    <span>PROJECT 02</span>
+
+                    <h3>Block Zone</h3>
+
+                    <p
+                        data-en="A Minecraft server project built as a community experience with its own systems and features."
+                        data-ar="مشروع سيرفر Minecraft مبني ليكون تجربة مجتمعية مع انظمة وميزات خاصة.">
+                        A Minecraft server project built as a community
+                        experience with its own systems and features.
+                    </p>
+
+                    <a
+                        href="#contact"
+                        data-en="View Project →"
+                        data-ar="شاهد المشروع ←">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img
+                        src="./assets/unity.png.jpe"
+                        alt="Unity Project">
+
+                </div>
+
+                <div class="project-info">
+
+                    <span>PROJECT 03</span>
+
+                    <h3>Unity Project</h3>
+
+                    <p
+                        data-en="An experimental game development project created while learning Unity and game development."
+                        data-ar="مشروع تجريبي لتطوير الالعاب اثناء تعلم Unity وتطوير الالعاب.">
+                        An experimental game development project created
+                        while learning Unity and game development.
+                    </p>
+
+                    <a
+                        href="#contact"
+                        data-en="View Project →"
+                        data-ar="شاهد المشروع ←">
+                        View Project →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FAVORITES ================= -->
+
+    <section id="favorites" class="section">
+
+        <div class="section-title">
+
+            <p
+                data-en="04 / FAVORITES"
+                data-ar="04 / المفضلة">
+                04 / FAVORITES
+            </p>
+
+            <h2
+                data-en="Things I enjoy"
+                data-ar="اشياء احبها">
+                Things I enjoy
+            </h2>
+
+        </div>
+
+
+        <div
+            id="favoriteCategories"
+            class="favorite-categories">
+
+
+            <button
+                class="favorite-category"
+                data-category="movies">
+
+                <div class="category-icon">
+                    🎬
+                </div>
+
+                <div>
+
+                    <span>01</span>
+
+                    <h3
+                        data-en="Movies & Series"
+                        data-ar="الافلام والمسلسلات">
+                        Movies & Series
+                    </h3>
+
+                    <p
+                        data-en="Shows and movies I enjoy"
+                        data-ar="افلام ومسلسلات احبها">
+                        Shows and movies I enjoy
+                    </p>
+
+                </div>
+
+                <strong>→</strong>
+
+            </button>
+
+
+            <button
+                class="favorite-category"
+                data-category="games">
+
+                <div class="category-icon">
+                    🎮
+                </div>
+
+                <div>
+
+                    <span>02</span>
+
+                    <h3
+                        data-en="Games"
+                        data-ar="الالعاب">
+                        Games
+                    </h3>
+
+                    <p
+                        data-en="Games I enjoy playing"
+                        data-ar="العاب احب لعبها">
+                        Games I enjoy playing
+                    </p>
+
+                </div>
+
+                <strong>→</strong>
+
+            </button>
+
+
+            <button
+                class="favorite-category"
+                data-category="music">
+
+                <div class="category-icon">
+                    🎵
+                </div>
+
+                <div>
+
+                    <span>03</span>
+
+                    <h3
+                        data-en="Music"
+                        data-ar="الموسيقى">
+                        Music
+                    </h3>
+
+                    <p
+                        data-en="Artists and music I listen to"
+                        data-ar="الفنانون والموسيقى التي اسمعها">
+                        Artists and music I listen to
+                    </p>
+
+                </div>
+
+                <strong>→</strong>
+
+            </button>
+
+
+            <button
+                class="favorite-category"
+                data-category="technology">
+
+                <div class="category-icon">
+                    💻
+                </div>
+
+                <div>
+
+                    <span>04</span>
+
+                    <h3
+                        data-en="Technology"
+                        data-ar="التكنولوجيا">
+                        Technology
+                    </h3>
+
+                    <p
+                        data-en="Tech and tools I like"
+                        data-ar="التكنولوجيا والادوات التي احبها">
+                        Tech and tools I like
+                    </p>
+
+                </div>
+
+                <strong>→</strong>
+
+            </button>
+
+        </div>
+
+
+        <div
+            id="favoriteGallery"
+            class="favorite-gallery hidden">
+
+            <button
+                id="backToFavorites"
+                class="back-button"
+                data-en="← Back to categories"
+                data-ar="→ العودة للفئات">
+                ← Back to categories
+            </button>
+
+            <div class="gallery-header">
+
+                <p id="galleryNumber">
+                    03 / MUSIC
+                </p>
+
+                <h2 id="galleryTitle">
+                    Music
+                </h2>
+
+            </div>
+
+            <div
+                id="galleryGrid"
+                class="gallery-grid">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+        id="contact"
+        class="section contact-section">
+
+        <div class="contact-box">
+
+            <p
+                data-en="05 / CONTACT"
+                data-ar="05 / تواصل معي">
+                05 / CONTACT
+            </p>
+
+            <h2>
+
+                <span
+                    data-en="Let's create "
+                    data-ar="لنصنع ">
+                    Let's create
+                </span>
+
+                <span
+                    data-en="something interesting."
+                    data-ar="شيئا ممتعا.">
+                    something interesting.
+                </span>
+
+            </h2>
+
+            <p
+                data-en="Find me on my platforms."
+                data-ar="يمكنك العثور علي في حساباتي.">
+                Find me on my platforms.
+            </p>
+
+
+            <div class="contact-links">
+
+                <a
+                    href="https://youtube.com/@3z2m"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                    YouTube
+                </a>
+
+                <a
+                    href="https://instagram.com/aymen_amine0531"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                    Instagram
+                </a>
+
+                <a
+                    href="https://discord.com/users/.uq0."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-link">
+                    Discord
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        <p>
+            © 2026 Vandox. All rights reserved.
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
